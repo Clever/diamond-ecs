@@ -1,0 +1,11 @@
+run:
+  type: docker
+env:
+  - ENVIRONMENT
+  - HOSTNAME
+  - GRAPHITE_HOST
+  - GRAPHITE_PORT
+  - SIGNALFX_TOKEN
+resources:
+  cpu: .1
+  max_mem: .1
