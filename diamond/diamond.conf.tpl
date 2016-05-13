@@ -81,13 +81,13 @@ batch_size = 1
 
 # Uncomment and set to hardcode a hostname for the collector path
 # Keep in mind, periods are seperators in graphite
-hostname = servers.{{ HOSTNAME }}
+hostname = {{ HOSTNAME }}
 
 
 # Path Prefix and Suffix
 # you can use one or both to craft the path where you want to put metrics
 # such as: %(path_prefix)s.$(hostname)s.$(path_suffix)s.$(metric)s
-path_prefix = {{ ENVIRONMENT }}
+path_prefix = servers.{{ ENVIRONMENT }}
 # path_suffix =
 
 # Default Poll Interval (seconds)
