@@ -1,8 +1,8 @@
 run:
   type: docker
 env:
+  #- HOSTNAME # passed through by starting with "host" docker network mode
   - ENVIRONMENT
-  - HOSTNAME
   - GRAPHITE_HOST
   - GRAPHITE_PORT
   - SIGNALFX_TOKEN
