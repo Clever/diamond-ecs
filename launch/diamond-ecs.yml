@@ -7,6 +7,6 @@ env:
   - GRAPHITE_PORT
   - SIGNALFX_TOKEN
 resources:
-  cpu: .25
+  cpu: .05
   max_mem: .1
 team: eng-infra
